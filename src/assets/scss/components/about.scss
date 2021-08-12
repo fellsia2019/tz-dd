@@ -1,0 +1,45 @@
+.about {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 600px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  @media (max-width: $desktopWidth) {
+    min-height: 450px;
+  }
+  @media (max-width: $smDesktopWidth) {
+    min-height: 380px;
+  }
+  @media (max-width: $tableWidth) {
+    min-height: 331px;
+  }
+  * {
+    position: relative;
+    z-index: 1;
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($body-color, 0.75);
+  }
+
+  // .about__txt
+  &__txt {
+    max-width: 350px;
+    span {
+      display: block;
+    }
+    @media (max-width: $smTableWidth) {
+      max-width: 250px;
+    }
+  }
+}

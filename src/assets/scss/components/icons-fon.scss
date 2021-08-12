@@ -1,0 +1,31 @@
+body {
+  position: relative;
+  &::before {
+    content: "";
+  }
+}
+
+.icons-fon {
+  // .icons-fon__item
+  &__item {
+    position: absolute;
+    opacity: 0.2;
+    user-select: none;
+    pointer-events: none;
+    // .icons-fon__item--earth
+    &--earth {
+      left: 150px;
+      bottom: 48px;
+      width: 165px;
+      height: 165px;
+      object-fit: cover;
+      object-position: center;
+    }
+    // .icons-fon__item--eye
+    &--eye {
+      width: 300px;
+      right: 152px;
+      bottom: 358px;
+    }
+  }
+}

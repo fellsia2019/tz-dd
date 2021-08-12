@@ -1,0 +1,28 @@
+.footer {
+  max-width: 400px;
+  margin: 0 auto;
+
+  // .footer__symbol
+  &__symbol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  // .footer__info
+  &__info {
+    margin: 80px;
+  }
+
+  // .footer__other
+  &__other {
+    @media (min-width: $smTableWidth) {
+      display: none;
+    }
+    margin-top: 70px;
+    margin-bottom: 0;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

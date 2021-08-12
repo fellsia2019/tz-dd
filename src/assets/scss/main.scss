@@ -1,0 +1,27 @@
+// utils
+@import 'utils/vars';
+@import 'utils/mixins';
+@import 'utils/fonts';
+@import 'utils/fonts-style';
+@import 'utils/reset';
+@import 'utils/anim';
+@import 'utils/container';
+@import 'utils/svg';
+
+// UI
+@import 'UI/btn';
+@import 'UI/select';
+@import 'UI/header';
+@import 'UI/footer';
+
+// Components
+@import 'components/intro';
+@import 'components/infos';
+@import 'components/about';
+@import 'components/question';
+@import 'components/icons-fon';
+@import 'components/qwiz';
+@import 'components/modal';
+@import 'components/list';
+
+@import 'vue-select/src/scss/vue-select.scss';
