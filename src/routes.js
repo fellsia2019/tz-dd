@@ -9,7 +9,6 @@ import Qwiz from '@/pages/Qwiz'
 
 // Routering
 export default new Router({
-  mode: 'history',
 
   routes: [
     {
